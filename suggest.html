@@ -1,0 +1,115 @@
+<!Doctype html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <title>Recipie world</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1> RECIPE WORLD </h1>
+        </center>
+        <center>
+            <nav>
+                <h5 id="page-links">
+                    <a href="index.html"> Home</a>
+                    <a href="recipes.html"> Recipe </a>
+                    <a href="suggest.html"> Suggest</a>
+                </h5>
+            </nav>
+        </center>
+        <img src="images/logo.png" id="logo-img" />
+    </header>
+    <main>
+        <div class="container" id="suggest-form">
+                    <form action="../php/register.php" method="post" id="form-sgst">
+                        <center>
+                            <h2> Suggest a Recipe</h2>
+                        </center>
+                        <div class="form-group">
+                            <label for="recipeName">Recipe Name:</label>
+                            <input type="text" class="form-control" name="RecipeName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address:</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="procedure">Ingredients and method</label>
+                            <textarea class="form-control" rows="5" id="procedure"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-info">Submit</button>
+                    </form>
+        </div>
+    </main>
+    <footer>
+        <center id="footer-ele">
+            <p> @2017-RECIPE WORLD </p>
+        </center>
+    </footer>
+
+</body>
+
+</html>
+
+
+<!-- <!Doctype html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8" />
+    <title>Recipie world</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1> RECIPE WORLD </h1>
+        </center>
+        <center>
+            <nav>
+                <h5 id="page-links">
+                    <a href="home.html"> Home</a>
+                    <a href="recipes.html"> Recipe </a>
+                    <a href="suggest.html"> Suggest</a>
+                </h5>
+            </nav>
+        </center>
+    </header>
+    <main>
+        <h2> Suggest a Recipe</h2>
+        <h4>Recipe name</h4>
+        <input type="text" />
+        <br/>
+        <h4>Ingredients and method</h4>
+        </br>
+        <input type="text" />
+        </br>
+        <h4> Your name</h4>
+        <input type="text" />
+        <br/>
+        <h4>Your gmail</h4>
+        </br>
+        <input type="email" />
+        </br>
+        <h4>Get news letter</h4>
+        <iput type="checkbox" />
+        </br>
+        <button type="submit">Submit</button>
+    </main>
+    <footer>
+        <center>
+            <p> @2017-RECIPE WORLD </p>
+        </center>
+    </footer>
+</body>
+
+</html> -->
