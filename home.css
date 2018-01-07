@@ -58,7 +58,34 @@ main{
     position:fixed;
    
 }
+/* #recipes{
+    max-width:72%;
+    margin-left: 14%;
+    margin-right:14%;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    padding:5px;
+    position:relative;
+    overflow: hidden;
+} */
+#recipe-img, img{
+    width:150px;
+    height:100px;
+}
+#recipe-img{
+    width:100%;
+    float:left; 
+    margin-left:50%;
+    margin-right:auto;
+    transform:translate(50%,0);
+}
+#recipe-img, li{
+    padding:10px;
+}
+
 #form-sgst{
     padding:5px;
     margin: 5px 5px 5px 5px;
 }
+
